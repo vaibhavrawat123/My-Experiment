@@ -27,6 +27,14 @@ app.use (
         next();
   }
   );
+// app.use (
+//     function (req, res, next) {
+//         console.log ("inside GLOBAL MW");
+//         next();
+//   }
+//   );
+  
+
 
 app.use('/', route);
 
